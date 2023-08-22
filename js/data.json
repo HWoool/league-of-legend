@@ -1,0 +1,54 @@
+{
+  "statue": [
+    {
+      "name": "요네 Unlocked 스태츄",
+      "price": 99000,
+      "category": "스태츄",
+      "image": ""
+    },
+    {
+      "name": "발로란트 킬조이 스태츄",
+      "price": 240000,
+      "category": "스태츄",
+      "image": ""
+    },
+    {
+      "name": "미스 포츈 3D 프레임 (Infinity Studio)",
+      "price": 170000,
+      "category": "스태츄",
+      "image": ""
+    },
+    {
+      "name": "가시 덩굴의 복수 자이라 1/4 스태츄 (Infinity Studio)",
+      "price": 1100000,
+      "category": "스태츄",
+      "image": ""
+    }
+  ],
+  "figure": [
+    {
+      "name": "요네 피규어",
+      "price": 38000,
+      "category": "피규어",
+      "image": ""
+    },
+    {
+      "name": "꿀잼 티모와 직스 디오라마 세트",
+      "price": 92000,
+      "category": "피규어",
+      "image": ""
+    },
+    {
+      "name": "꿀벌 포로 피규어(특별판)",
+      "price": 45000,
+      "category": "피규어",
+      "image": ""
+    },
+    {
+      "name": "전투 토끼 미스 포츈 피규어",
+      "price": 42000,
+      "category": "피규어",
+      "image": ""
+    }
+  ]
+}

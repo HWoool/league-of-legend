@@ -1,0 +1,131 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* header */
+.wrap_head {
+  background-color: #fff;
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  height: 104px;
+}
+.store_bag {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+/* input 박스  */
+.wrap_head .search_box {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  height: 24px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.wrap_head .search_box img {
+  position: absolute;
+  width: 17px;
+  top: 2px;
+  right: 12px;
+  margin: 0;
+}
+.wrap_head .lol_logo {
+  display: flex;
+}
+.wrap_head .lol_logo img:first-child {
+  padding-left: 10px;
+}
+/* 리그오브레전드 로고 */
+#riot-store {
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  width: 150px;
+  height: 52px;
+}
+/* 발로란트 로고 */
+#Valorant {
+  position: absolute;
+  top: 25px;
+  left: 150px;
+  width: 90px;
+  height: 62.63px;
+}
+/* 라이엇스토어 로고 */
+#riot-store_logo {
+  display: inline-block;
+  max-width: 467px;
+  padding-top: 33px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+/* 라이엇스토어 로고이미지 크기 */
+.wrap_head .lol_logo .riot-store_logoimg {
+  display: inline-block;
+  width: 285px;
+}
+/* footer */
+.store_footer {
+  margin: 0 auto;
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+}
+.store_footer_inner {
+  background-color: #f9f9f9;
+  padding: 30px 0;
+}
+.store_footer_inner address {
+  font-style: normal;
+  width: 980px;
+  text-align: left;
+  display: inline-block;
+}
+.store_footer_inner .sns .blind {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  text-indent: -9999px;
+  line-height: 0px;
+  font-size: 0px;
+  text-align: center;
+}
+.store_footer_inner .sns {
+  padding-bottom: 30px;
+}
+.store_footer_inner .sns a {
+  display: inline-block;
+  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+}
+.store_footer_inner .info {
+  line-height: 20px;
+  font-size: 13px;
+}
+.store_footer_inner .info img {
+  padding-top: 10px;
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* detail css */
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+.row {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+/* 상품상세페이지 상단 */
+.detail {
+  display: flex;
+  justify-content: space-between;
+  border-top: 4px solid #000;
+  padding-top: 30px;
+}
+.detail .title_store {
+  padding-bottom: 10px;
+}
+.detail .title_store span {
+  padding-right: 3px;
+}
+.detail .title_store .accent {
+  color: #0231a6;
+}
+.detail .title_store .fa-house {
+  color: #bbb;
+}
+.product_ifm {
+  width: 1000px;
+}
+.product_img img {
+  width: 550px;
+  height: 600px;
+}
+.title_price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-bottom: 27px;
+}
+.icon .fa-heart:hover {
+  color: red;
+  transition: 0.5s;
+}
+.icon .fa-share-nodes:hover {
+  color: red;
+  transition: 0.5s;
+}
+.title_coupon {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #757575;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.title_coupon .accent_red {
+  color: red;
+}
+
+.title_daytext {
+  line-height: 40px;
+  display: block;
+  border-top: 1px solid #f0f0f0;
+  line-height: 40px;
+  box-shadow: 5px 5px #f0f0f0;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.title_daybox {
+  border: 1px solid #000;
+}
+.title_daybox .dayday {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.title_daybox .dayinfo {
+  font-size: 12px;
+  line-height: 30px;
+}
+
+/* 목록 */
+.title_name {
+  display: block;
+  border-top: 1px solid #f0f0f0;
+  line-height: 40px;
+  box-shadow: 5px 5px #f0f0f0;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.title_name:last-child {
+  border-bottom: 1px solid #f0f0f0;
+}

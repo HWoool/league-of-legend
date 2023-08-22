@@ -1,0 +1,442 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* input 클릭시 안에 테두리 제거 */
+input:focus {
+  outline: none;
+}
+b {
+  font-weight: bold;
+}
+h2 {
+  font-family: "Black Han Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 23px;
+}
+/* body 배경화면 */
+body {
+  background-image: url(../images/i8268737542.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+/* 페이지 크기 */
+#wrap_store {
+  background-color: #fff;
+  max-width: 980px;
+  margin: 0 auto;
+}
+/* 후버했을때 이미지  */
+.wrap_good img,
+.wrap_list img {
+  position: relative;
+  transition: all 0.5s;
+}
+/* 이미지 뒤에 내용 숨기기 */
+.wrap_good .back,
+.wrap_list .back {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: #fff;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+/* 후버헀을때 .back 내용 보여주기 */
+.wrap_good .back:hover,
+.wrap_list .back:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+.wrap_good .back a,
+.wrap_list .back a {
+  margin: 0 10px;
+}
+/* 리그오브레전드 로고 */
+#riot-store {
+  position: absolute;
+  top: 32px;
+  left: 0px;
+  width: 150px;
+  height: 52px;
+}
+/* 발로란트 로고 */
+#Valorant {
+  position: absolute;
+  top: 25px;
+  left: 150px;
+  width: 90px;
+  height: 62.63px;
+}
+/* 라이엇스토어 로고 */
+#riot-store_logo {
+  display: inline-block;
+  max-width: 467px;
+  padding-top: 33px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+/* 라이엇스토어 로고이미지 크기 */
+.wrap_head .lol_logo .riot-store_logoimg {
+  display: inline-block;
+  width: 285px;
+}
+/* nav 카테고리 */
+.wrap_nav {
+  position: relative;
+  background-color: #000;
+  padding: 0 20px 0 20px;
+}
+.wrap_nav .nav_list {
+  padding: 20px 0;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap_nav .nav_list a {
+  color: #fff;
+  font-size: 14px;
+  vertical-align: middle;
+  height: 18px;
+}
+.wrap_nav .nav_list span {
+  margin: 0 8px;
+}
+
+/* 상품목록(special_goods */
+.wrap_good .title1_h2 {
+  background-image: url(../images/tit_special_goods.png);
+  text-align: center;
+  width: 100%;
+  height: 68px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/* 옵션 new  */
+.wrap_good_items {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* 스페셜상품 3개 리스트 크기 */
+.wrap_good_items > div {
+  width: 32.5%;
+  padding: 7px 6px;
+}
+/* NEW 박스 */
+.wrap_good_items .box_item .option {
+  background-color: rgb(245, 185, 17);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 상품 이름 및 가격 */
+.wrap_good_items .item_name {
+  position: relative;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 74px;
+  text-align: center;
+  font-size: 14px;
+  color: #696969;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* 이미지 크기 */
+.wrap_good_items .item1_img,
+.item2_img,
+.item3_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-bottom: 78.86%;
+  width: 100%;
+  overflow: hidden;
+}
+/* 각 상품 이미지 */
+.wrap_good_items .wrap_item1 .item1_img {
+  background-image: url(../images/838ac621820809ecd038a1af10cb50bce41c3e02.jpg);
+}
+.wrap_good_items .wrap_item2 .item2_img {
+  background-image: url(../images/c955e456f5ebb3f2967bccaa2443e8862cb1e2c4.jpg);
+}
+.wrap_good_items .wrap_item3 .item3_img {
+  background-image: url(../images/fd10b93ea2da5cdd455cbed3bfba42358416c0bc.jpg);
+}
+
+/* wrap_list 신상품 */
+.wrap_good_list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_list > div {
+  width: 24%;
+  padding: 7px 6px;
+}
+.wrap_good_list .box_item .option {
+  background-color: rgb(245, 185, 17);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap_list .title2_h2 {
+  padding: 30px 0;
+  text-align: center;
+}
+.wrap_good_list .item_name {
+  position: relative;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 74px;
+  text-align: center;
+  font-size: 14px;
+  color: #696969;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_list .list1_img,
+.list2_img,
+.list3_img,
+.list4_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.wrap_good_list .wrap_list1 .list1_img {
+  background-image: url(../images/list_1.jpg);
+}
+.wrap_good_list .wrap_list2 .list2_img {
+  background-image: url(../images/list_2.jpg);
+}
+.wrap_good_list .wrap_list3 .list3_img {
+  background-image: url(../images/list_3.jpg);
+}
+.wrap_good_list .wrap_list4 .list4_img {
+  background-image: url(../images/list_4.jpg);
+}
+/* 스태츄 statue */
+.wrap_good_statue {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_statue > div {
+  width: 24%;
+  padding: 7px 6px;
+}
+.wrap_good_statue .box_item .option {
+  background-color: rgb(245, 185, 17);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap_good_statue .item_name {
+  position: relative;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 74px;
+  text-align: center;
+  font-size: 14px;
+  color: #696969;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_statue .statue1_img,
+.statue2_img,
+.statue3_img,
+.statue4_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.wrap_good_statue .wrap_statue1 .statue1_img {
+  background-image: url(../images/statue_1.jpg);
+}
+.wrap_good_statue .wrap_statue2 .statue2_img {
+  background-image: url(../images/statue_2.jpg);
+}
+.wrap_good_statue .wrap_statue3 .statue3_img {
+  background-image: url(../images/statue_3.png);
+}
+.wrap_good_statue .wrap_statue4 .statue4_img {
+  background-image: url(../images/statue_4.jpg);
+}
+/* 피규어 figure */
+.wrap_good_figure {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_figure > div {
+  width: 24%;
+  padding: 7px 6px;
+}
+.wrap_good_figure .box_item .option {
+  background-color: rgb(245, 185, 17);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap_good_figure .item_name {
+  position: relative;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 74px;
+  text-align: center;
+  font-size: 14px;
+  color: #696969;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_figure .figure1_img,
+.figure2_img,
+.figure3_img,
+.figure4_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.wrap_good_figure .wrap_figure1 .figure1_img {
+  background-image: url(../images/figure_1.jpg);
+}
+.wrap_good_figure .wrap_figure2 .figure2_img {
+  background-image: url(../images/figure_2.jpg);
+}
+.wrap_good_figure .wrap_figure3 .figure3_img {
+  background-image: url(../images/figure_3.png);
+}
+.wrap_good_figure .wrap_figure4 .figure4_img {
+  background-image: url(../images/figure_4.jpg);
+}
+/* 티셔츠 T-shirt */
+.wrap_good_shirt {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_shirt > div {
+  width: 24%;
+  padding: 7px 6px;
+}
+.wrap_good_shirt .box_item .option {
+  background-color: rgb(245, 185, 17);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  z-index: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap_good_shirt .item_name {
+  position: relative;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 74px;
+  text-align: center;
+  font-size: 14px;
+  color: #696969;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap_good_shirt .shirt1_img,
+.shirt2_img,
+.shirt3_img,
+.shirt4_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.wrap_good_shirt .wrap_shirt1 .shirt1_img {
+  background-image: url(../images/shirt_1.jpg);
+}
+.wrap_good_shirt .wrap_shirt2 .shirt2_img {
+  background-image: url(../images/shirt_2.jpg);
+}
+.wrap_good_shirt .wrap_shirt3 .shirt3_img {
+  background-image: url(../images/shirt_3.jpg);
+}
+.wrap_good_shirt .wrap_shirt4 .shirt4_img {
+  background-image: url(../images/shirt_4.jpg);
+}
