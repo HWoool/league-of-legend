@@ -1,28 +1,152 @@
 {
+  "specialgoods": [
+    {
+      "name": "쓰레쉬 스태츄",
+      "price": 85000,
+      "category": "특별상품",
+      "image": "specialgoods_1.jpg"
+    },
+    {
+      "name": "제드 UNLOCKED 스태츄",
+      "price": 99000,
+      "category": "특별상품",
+      "image": "specialgoods_2.jpg"
+    },
+    {
+      "name": "발로란트 피닉스 스태츄",
+      "price": 210000,
+      "category": "특별상품",
+      "image": "specialgoods_3.jpg"
+    },
+    {
+      "name": "K/DA 아칼리 UNLOCKED 스태츄",
+      "price": 109000,
+      "category": "특별상품",
+      "image": "specialgoods_4.jpg"
+    },
+    {
+      "name": "오른 XL 피규어",
+      "price": 45000,
+      "category": "특별상품",
+      "image": "specialgoods_5.jpg"
+    },
+    {
+      "name": "징크스 넨드로이드",
+      "price": 69000,
+      "category": "특별상품",
+      "image": "specialgoods_6.jpg"
+    },
+    {
+      "name": "비전 마법사 코그모 인형",
+      "price": 38000,
+      "category": "특별상품",
+      "image": "specialgoods_7.jpg"
+    },
+    {
+      "name": "발로란트 댄펭귄 인형",
+      "price": 39000,
+      "category": "특별상품",
+      "image": "specialgoods_8.jpg"
+    },
+    {
+      "name": "2023 발로란트 마스터스 기습 토트 가방",
+      "price": 65000,
+      "category": "특별상품",
+      "image": "specialgoods_9.jpg"
+    },
+    {
+      "name": "K/DA 아리 피규어 (특별판)",
+      "price": 35000,
+      "category": "특별상품",
+      "image": "specialgoods_10.jpg"
+    },
+    {
+      "name": "진 피규어",
+      "price": 35000,
+      "category": "특별상품",
+      "image": "specialgoods_11.jpg"
+    },
+    {
+      "name": "대장군 아지르 피규어 (시리즈2)",
+      "price": 32000,
+      "category": "특별상품",
+      "image": "specialgoods_12.jpg"
+    },
+    {
+      "name": "2021 월드 챔피언십 내셔 남작 긴팔 티셔츠",
+      "price": 59000,
+      "category": "특별상품",
+      "image": "specialgoods_13.jpg"
+    },
+    {
+      "name": "작은 악마 티모 티셔츠",
+      "price": 30000,
+      "category": "특별상품",
+      "image": "specialgoods_14.jpg"
+    },
+    {
+      "name": "수영장 파티 하와이안 반팔 셔츠 (남녀공용))",
+      "price": 45000,
+      "category": "특별상품",
+      "image": "specialgoods_15.jpg"
+    },
+    {
+      "name": "쓰레쉬 티셔츠 (남녀공용)",
+      "price": 30000,
+      "category": "특별상품",
+      "image": "specialgoods_16.jpg"
+    }
+  ],
+  "newitem": [
+    {
+      "name": "2023 발로란트 챔피언스 X GOALSTUDIO 반팔티 (화이트)",
+      "price": 59000,
+      "category": "신상품",
+      "image": "newitem_1.jpg"
+    },
+    {
+      "name": "2023 발로란트 챔피언스 X GOALSTUDIO 반팔티 (블랙)",
+      "price": 59000,
+      "category": "신상품",
+      "image": "newitem_2.jpg"
+    },
+    {
+      "name": "요네 Unlocked 스태츄",
+      "price": 99000,
+      "category": "신상품",
+      "image": "newitem_3.jpg"
+    },
+    {
+      "name": "요네 피규어",
+      "price": 38000,
+      "category": "신상품",
+      "image": "newitem_4.jpg"
+    }
+  ],
   "statue": [
     {
       "name": "요네 Unlocked 스태츄",
       "price": 99000,
       "category": "스태츄",
-      "image": ""
+      "image": "statue_1.jpg"
     },
     {
       "name": "발로란트 킬조이 스태츄",
       "price": 240000,
       "category": "스태츄",
-      "image": ""
+      "image": "statue_2.jpg"
     },
     {
       "name": "미스 포츈 3D 프레임 (Infinity Studio)",
       "price": 170000,
       "category": "스태츄",
-      "image": ""
+      "image": "statue_3.png"
     },
     {
       "name": "가시 덩굴의 복수 자이라 1/4 스태츄 (Infinity Studio)",
       "price": 1100000,
       "category": "스태츄",
-      "image": ""
+      "image": "statue_4.jpg"
     }
   ],
   "figure": [
@@ -30,25 +154,51 @@
       "name": "요네 피규어",
       "price": 38000,
       "category": "피규어",
-      "image": ""
+      "image": "figure_1.jpg"
     },
     {
       "name": "꿀잼 티모와 직스 디오라마 세트",
       "price": 92000,
       "category": "피규어",
-      "image": ""
+      "image": "figure_2.jpg"
     },
     {
       "name": "꿀벌 포로 피규어(특별판)",
       "price": 45000,
       "category": "피규어",
-      "image": ""
+      "image": "figure_3.png"
     },
     {
       "name": "전투 토끼 미스 포츈 피규어",
       "price": 42000,
       "category": "피규어",
-      "image": ""
+      "image": "figure_4.jpg"
+    }
+  ],
+  "T-shirt": [
+    {
+      "name": "2023 MSI DEFY 풀오버 후드티",
+      "price": 99000,
+      "category": "티셔츠",
+      "image": "shirt_1.jpg"
+    },
+    {
+      "name": "2023 발로란트 마스터스 겉옷",
+      "price": 210000,
+      "category": "티셔츠",
+      "image": "shirt_2.jpg"
+    },
+    {
+      "name": "2023 발로란트 챔피언스 한 번 더 반팔티",
+      "price": 45000,
+      "category": "티셔츠",
+      "image": "shirt_3.jpg"
+    },
+    {
+      "name": "2023 발로란트 챔피언스 게코 집중조명 반팔티",
+      "price": 49000,
+      "category": "티셔츠",
+      "image": "shirt_4.jpg"
     }
   ]
 }
