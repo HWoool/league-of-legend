@@ -52,13 +52,14 @@
       <div class="wrap_good">
         <h2 class="title1_h2"></h2>
         <div class="wrap_good_items">
-          <div class="wrap_item1">
+          <!-- <div class="wrap_item">
             <div class="box_item">
               <span class="option new" ::before>
                 <span class="option_text">NEW</span>
               </span>
             </div>
-            <div class="item1_img">
+            <div class="item_img">
+              <img src="./images/01_special/specialgoods_1.jpg" alt="" />
               <div class="back">
                 <a href="#"><i class="fas fa-search"></i></a>
                 <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -68,52 +69,16 @@
               <p class="txt">요네 Unlocked 스태츄</p>
               <b>99,000원</b>
             </div>
-          </div>
-          <div class="wrap_item2">
-            <div class="box_item">
-              <span class="option new" ::before>
-                <span class="option_text">NEW</span>
-              </span>
-            </div>
-            <div class="item2_img">
-              <div class="back">
-                <a href="#"><i class="fas fa-search"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-              </div>
-            </div>
-            <div class="item_name">
-              <p>요네피규어</p>
-              <b>38,000원</b>
-            </div>
-          </div>
-          <div class="wrap_item3">
-            <div class="box_item">
-              <span class="option new" ::before>
-                <span class="option_text">NEW</span>
-              </span>
-            </div>
-            <div class="item3_img">
-              <div class="back">
-                <a href="#"><i class="fas fa-search"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-              </div>
-            </div>
-            <div class="item_name">
-              <p class="txt">
-                2023 발로란트 챔피언스 X GOALSTUDIO 반팔티 (블랙)
-              </p>
-              <b>59,000원</b>
-            </div>
-          </div>
+          </div>-->
         </div>
       </div>
       <!-- 상품목록 -->
-      <div class="wrap_list">
-        <!-- 신상품 New item -->
-        <div class="wrap_content1">
+      <!-- <div class="wrap_list"> -->
+      <!-- 신상품 New item -->
+      <!-- <div class="wrap_content1">
           <h2 class="title2_h2">NEW ITEM</h2>
-          <div class="wrap_good_list">
-            <div class="wrap_list1">
+          <div class="wrap_good_list"> -->
+      <!-- <div class="wrap_list">
               <div class="box_item">
                 <span class="option new" ::before>
                   <span class="option_text">NEW</span>
@@ -181,11 +146,11 @@
                 <p>요네 피규어</p>
                 <b>38,000원</b>
               </div>
-            </div>
-          </div>
-        </div>
-        <!-- 스태츄 statue -->
-        <div class="wrap_content2">
+            </div> -->
+      <!-- </div>
+        </div> -->
+      <!-- 스태츄 statue -->
+      <!-- <div class="wrap_content2">
           <h2 class="title2_h2">STATUE</h2>
           <div class="wrap_good_statue">
             <div class="wrap_statue1">
@@ -259,9 +224,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- 피규어 Figure-->
-        <div class="wrap_content3">
+        </div> -->
+      <!-- 피규어 Figure-->
+      <!-- <div class="wrap_content3">
           <h2 class="title2_h2">FIGURE</h2>
           <div class="wrap_good_figure">
             <div class="wrap_figure1">
@@ -335,8 +300,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="wrap_content4">
+        </div> -->
+      <!-- 티셔츠 -->
+      <!-- <div class="wrap_content4">
           <h2 class="title2_h2">T-SHIRT</h2>
           <div class="wrap_good_shirt">
             <div class="wrap_shirt1">
@@ -413,12 +379,29 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> -->
     </div>
 
     <div class="store_footer"></div>
 
     <script src="./js/common.js"></script>
+    <!-- json 데이터 비동기  -->
+    <script>
+      let data = "";
+      $.ajax({
+        type: "GET",
+        url: "./js/data.json",
+        dataType: "json",
+        success: function (rdata) {
+          data = rdata.specialgoods;
+          usedata("특별상품");
+        },
+        error: function (xhr) {
+          alert(xhr.status + "/" + xhr.errorText);
+        },
+      });
+    </script>
+
+    <script src="./js/prdlist.js"></script>
   </body>
 </html>
