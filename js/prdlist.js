@@ -15,13 +15,13 @@ function usedata(cate) {
             </span>
             </div>
             <div class="item_img">
-            <img src="./images/JSON/${value.image}" alt="${value.name}" />
-              <div class="back">
-              <a href="./detail.html?${value.name}&${value.price}&${
+              <img src="./images/JSON/${value.image}" alt="${value.name}" />
+                <div class="back">
+                  <a href="./detail.html?${value.name}&${value.price}&${
       value.image
-    }">
-              <i class="fas fa-search"></i></a>
-              <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    }&${value.infoimg}">
+                <i class="fas fa-search"></i></a>
+                <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
               </div>
             </div>
             <div class="item_name">
