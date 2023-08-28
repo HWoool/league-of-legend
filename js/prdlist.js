@@ -1,9 +1,11 @@
 function usedata(cate) {
   let newdata = data.filter((value) => value.category == cate);
-  //   console.log(newdata);
+  console.log(newdata);
 
-  let dir = `<ul class="wrap_item">`;
-
+  let dir = `<h2 class="title1_h2">${cate}</h2>`;
+  dir += `<div class="wrap_good_items">
+             <ul class="wrap_item">`;
+  // <div class="wrap_good_items"></div><ul class="wrap_item">
   newdata.forEach((value) => {
     dir += `
             <li>
@@ -13,21 +15,31 @@ function usedata(cate) {
             </span>
             </div>
             <div class="item_img">
-            <img src="./images/01_special/${value.image}" alt="${value.name}" />
+            <img src="./images/JSON/${value.image}" alt="${value.name}" />
               <div class="back">
-                <a href="#"><i class="fas fa-search"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="./detail.html?${value.name}&${value.price}&${
+      value.image
+    }">
+              <i class="fas fa-search"></i></a>
+              <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
               </div>
             </div>
             <div class="item_name">
               <p class="txt">${value.name}</p>
-              <b>${value.price}</b>
+              <b>${value.price
+                .toString()
+                .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</b>
             </div>
             </li>
             `;
   });
-  dir += `</ul>`;
-
-  //   $(".wrap_good .wrap_good_items .wrap_item").remove();
-  $(".wrap_good .wrap_good_items").append(dir);
+  dir += `</ul>
+          </div>`;
+  $(".title1_h2").remove();
+  $(".wrap_good .wrap_good_items").remove();
+  $(".wrap_good").append(dir);
 }
+$(".wrap_nav .nav_list a").on("click", function () {
+  let text = $(this).text();
+  usedata(text);
+});
