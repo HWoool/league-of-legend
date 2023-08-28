@@ -159,16 +159,32 @@ li {
 .banner img {
   width: 400px;
 }
-
-.tab {
+.tab ul {
   display: flex;
   color: #fff;
   background-color: #333333;
   margin: 50px 0 10px 0;
-  height: 80px;
+  height: 60px;
+  text-align: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 21px;
   justify-content: center;
+  padding: 0 100px;
+  border: 1px solid #000;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.tab ul li {
+  padding: 0 50px 5px 50px;
+  letter-spacing: 3px;
+  height: inherit;
+  line-height: 60px;
+}
+.tab ul li a {
+  display: inline-block;
+  height: inherit;
+}
+.tab ul li a:hover {
+  border-bottom: 5px solid #e63740;
 }
 .tab span {
   padding: 0px 30px;
@@ -177,27 +193,89 @@ li {
 .detail_photo img {
   width: 980px;
 }
+.total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+}
+.result {
+  background-color: #f9f9f9;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px #f0f0f0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.item_result {
+  display: flex;
+}
+.total .item_result input {
+  width: 45px;
+  height: 32px;
+  border: 1px solid #ddd;
+}
+.item_result button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 25px;
+  width: 35px;
+  height: 34px;
+}
+.item_result .item_minus {
+  border-radius: 10px 0px 0px 10px;
+}
+.item_result .item_plus {
+  border-radius: 0px 10px 10px 0px;
+}
+.item_number {
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.price_result {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+  content: "";
+}
+
+.total_price {
+  height: 70px;
+  line-height: 70px;
+  text-align: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* 버튼 */
 .btn {
   display: flex;
   justify-content: space-between;
 }
 .btn button {
   border-radius: 10px;
+  border: 1px solid #e63740;
+  font-size: 16px;
+  height: 40px;
+  font-weight: bold;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 25px;
+}
+.btn .gift {
+  width: 110px;
+  color: #e63740;
+  background-color: rgba(0, 0, 0, 0);
 }
 .btn .cart {
-  background-color: #fff;
-  border: 1px solid #000;
-  width: 210px;
-  height: 45px;
-  font-size: 22px;
-  font-weight: bold;
+  color: #e63740;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0);
 }
 .btn .buy {
+  width: 150px;
   background-color: #e63740;
-  border: 1px solid #000;
-  width: 210px;
-  height: 45px;
-  font-size: 22px;
-  font-weight: bold;
   color: #fff;
 }

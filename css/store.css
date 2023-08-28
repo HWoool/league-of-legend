@@ -12,6 +12,9 @@ a {
 b {
   font-weight: bold;
 }
+ul li {
+  list-style: none;
+}
 h2 {
   font-family: "Black Han Sans", sans-serif;
   letter-spacing: 2px;
@@ -23,9 +26,34 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-
-ul li {
-  list-style: none;
+/* 배너 이미지 넘기기 크기 */
+.wrap_img {
+  max-width: 980px; /*  배너 크기 */
+  overflow: hidden; /* 크기에 넘어가있는 이미지 숨기기 */
+  position: relative;
+  height: 408px; /*  이미지 높이 */
+}
+/* 이미지 */
+.wrap_img ul {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* 넘기는 버튼  */
+.wrap_img .mbtn {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  top: 40%;
+}
+.wrap_img .mbtn button {
+  font-size: 35px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0 15px;
 }
 
 /* 페이지 크기 */
@@ -106,30 +134,41 @@ ul li {
   background-color: #000;
   padding: 0 20px 0 20px;
 }
+/* nav 카테고리 list 크기 */
 .wrap_nav .nav_list {
-  padding: 20px 0;
+  height: 60px;
   white-space: nowrap;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
+/* nav 카테고리 a 크기 */
 .wrap_nav .nav_list a {
   color: #fff;
-  font-size: 14px;
-  vertical-align: middle;
-  height: 18px;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+/* nav 카테고리 후버 했을때. */
+.wrap_nav .nav_list a:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #fff;
+  transition: 0.7s;
+  background-color: #fff;
+  color: #000;
 }
 .wrap_nav .nav_list span {
-  margin: 0 8px;
+  margin: 0 40px;
 }
 
 /* 상품목록(special_goods */
 .wrap_good .title1_h2 {
-  background-image: url(../images/tit_special_goods.png);
   text-align: center;
-  /* width: 100%; */
   height: 68px;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  line-height: 68px;
 }
 
 /* 옵션 new  */
@@ -144,11 +183,25 @@ ul li {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.wrap_item .item_img {
+  height: 231px;
+
+  display: flex;
+  align-items: center;
+}
+.wrap_item .item_img img {
+  height: 100%;
+}
+
 .wrap_item li {
   margin: 10px 0;
 }
 .wrap_item > li {
-  width: 23.5%;
+  width: 24%;
+}
+
+.item_name b::after {
+  content: "원";
 }
 /* NEW 박스 */
 .wrap_good_items .box_item .option {
@@ -182,256 +235,4 @@ ul li {
 /* 이미지 크기 */
 .wrap_good_items .item_img img {
   width: 100%;
-}
-/* wrap_list 신상품 */
-.wrap_good_list {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_list > div {
-  width: 24%;
-  padding: 7px 6px;
-}
-.wrap_good_list .box_item .option {
-  background-color: rgb(245, 185, 17);
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  display: block;
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  z-index: 1;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrap_list .title2_h2 {
-  padding: 30px 0;
-  text-align: center;
-}
-.wrap_good_list .item_name {
-  position: relative;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 74px;
-  text-align: center;
-  font-size: 14px;
-  color: #696969;
-  box-sizing: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_list .list1_img,
-.list2_img,
-.list3_img,
-.list4_img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  position: relative;
-  padding-bottom: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-.wrap_good_list .wrap_list1 .list1_img {
-  background-image: url(../images/list_1.jpg);
-}
-.wrap_good_list .wrap_list2 .list2_img {
-  background-image: url(../images/list_2.jpg);
-}
-.wrap_good_list .wrap_list3 .list3_img {
-  background-image: url(../images/list_3.jpg);
-}
-.wrap_good_list .wrap_list4 .list4_img {
-  background-image: url(../images/list_4.jpg);
-}
-/* 스태츄 statue */
-.wrap_good_statue {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_statue > div {
-  width: 24%;
-  padding: 7px 6px;
-}
-.wrap_good_statue .box_item .option {
-  background-color: rgb(245, 185, 17);
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  display: block;
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  z-index: 1;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrap_good_statue .item_name {
-  position: relative;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 74px;
-  text-align: center;
-  font-size: 14px;
-  color: #696969;
-  box-sizing: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_statue .statue1_img,
-.statue2_img,
-.statue3_img,
-.statue4_img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  position: relative;
-  padding-bottom: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-.wrap_good_statue .wrap_statue1 .statue1_img {
-  background-image: url(../images/statue_1.jpg);
-}
-.wrap_good_statue .wrap_statue2 .statue2_img {
-  background-image: url(../images/statue_2.jpg);
-}
-.wrap_good_statue .wrap_statue3 .statue3_img {
-  background-image: url(../images/statue_3.png);
-}
-.wrap_good_statue .wrap_statue4 .statue4_img {
-  background-image: url(../images/statue_4.jpg);
-}
-/* 피규어 figure */
-.wrap_good_figure {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_figure > div {
-  width: 24%;
-  padding: 7px 6px;
-}
-.wrap_good_figure .box_item .option {
-  background-color: rgb(245, 185, 17);
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  display: block;
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  z-index: 1;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrap_good_figure .item_name {
-  position: relative;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 74px;
-  text-align: center;
-  font-size: 14px;
-  color: #696969;
-  box-sizing: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_figure .figure1_img,
-.figure2_img,
-.figure3_img,
-.figure4_img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  position: relative;
-  padding-bottom: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-.wrap_good_figure .wrap_figure1 .figure1_img {
-  background-image: url(../images/figure_1.jpg);
-}
-.wrap_good_figure .wrap_figure2 .figure2_img {
-  background-image: url(../images/figure_2.jpg);
-}
-.wrap_good_figure .wrap_figure3 .figure3_img {
-  background-image: url(../images/figure_3.png);
-}
-.wrap_good_figure .wrap_figure4 .figure4_img {
-  background-image: url(../images/figure_4.jpg);
-}
-/* 티셔츠 T-shirt */
-.wrap_good_shirt {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_shirt > div {
-  width: 24%;
-  padding: 7px 6px;
-}
-.wrap_good_shirt .box_item .option {
-  background-color: rgb(245, 185, 17);
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  display: block;
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  z-index: 1;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrap_good_shirt .item_name {
-  position: relative;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 74px;
-  text-align: center;
-  font-size: 14px;
-  color: #696969;
-  box-sizing: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.wrap_good_shirt .shirt1_img,
-.shirt2_img,
-.shirt3_img,
-.shirt4_img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  position: relative;
-  padding-bottom: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-.wrap_good_shirt .wrap_shirt1 .shirt1_img {
-  background-image: url(../images/shirt_1.jpg);
-}
-.wrap_good_shirt .wrap_shirt2 .shirt2_img {
-  background-image: url(../images/shirt_2.jpg);
-}
-.wrap_good_shirt .wrap_shirt3 .shirt3_img {
-  background-image: url(../images/shirt_3.jpg);
-}
-.wrap_good_shirt .wrap_shirt4 .shirt4_img {
-  background-image: url(../images/shirt_4.jpg);
 }
