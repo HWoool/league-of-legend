@@ -16,6 +16,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="wrap_head"></div>
@@ -120,19 +126,22 @@
           </div>
           <div class="total">
             <div class="item_result">
-              <button class="item_plus">-</button>
-              <input type="text" />
-              <button class="item_minus">+</button>
+              <div class="minus"><button class="item_minus">-</button></div>
+              <div class="input"><input type="text" /></div>
+              <div class="plus"><button class="item_plus">+</button></div>
             </div>
             <div class="price_result">
               <span>99000</span>
             </div>
           </div>
           <div class="total_price">
-            <span>99000원</span>
+            <span>99000</span>
           </div>
         </div>
         <div class="btn">
+          <button type="button" class="gift">
+            <i class="fa-solid fa-gift"></i> 선물하기
+          </button>
           <button type="button" class="cart">
             <i class="fa-solid fa-cart-shopping"></i> 장바구니
           </button>
@@ -144,10 +153,12 @@
     </div>
 
     <div class="tab">
-      <div><span>상세설명</span></div>
-      <div><span>구매후기</span></div>
-      <div><span>상품문의</span></div>
-      <div><span>교환/반품</span></div>
+      <ul>
+        <li><a href="">상세설명</a></li>
+        <li><a href="">구매후기</a></li>
+        <li><a href="">상품문의</a></li>
+        <li><a href="">교환/반품</a></li>
+      </ul>
     </div>
 
     <div class="detail_photo row">
