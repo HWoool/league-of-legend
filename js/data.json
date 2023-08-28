@@ -1,100 +1,115 @@
 [
   {
-    "name": "쓰레쉬 스태츄",
-    "price": 85000,
+    "name": "Mobyfox 징크스 스마트워치 밴드 (삼성/애플)",
+    "price": 58000,
     "category": "SPECIAL GOODS",
     "image": "01_special/specialgoods_1.jpg",
-    "infoimg": "DETAIL/럭스.jpg"
+    "infoimg": "DETAIL/01_special/징크스워치1.jpg"
   },
   {
-    "name": "제드 UNLOCKED 스태츄",
-    "price": 99000,
+    "name": "Mobyfox 징크스 그라피티 스마트워치 밴드 (삼성/애플)",
+    "price": 58000,
     "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_2.jpg"
+    "image": "01_special/specialgoods_2.jpg",
+    "infoimg": "DETAIL/01_special/징크스워치2.jpg"
   },
   {
-    "name": "발로란트 피닉스 스태츄",
-    "price": 210000,
+    "name": "Mobyfox 아리 스마트워치 밴드 (삼성/애플)",
+    "price": 58000,
     "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_3.jpg"
-  },
-  {
-    "name": "K/DA 아칼리 UNLOCKED 스태츄",
-    "price": 109000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_4.jpg"
-  },
-  {
-    "name": "오른 XL 피규어",
-    "price": 45000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_5.jpg"
-  },
-  {
-    "name": "징크스 넨드로이드",
-    "price": 69000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_6.jpg"
-  },
-  {
-    "name": "비전 마법사 코그모 인형",
-    "price": 38000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_7.jpg"
-  },
-  {
-    "name": "발로란트 댄펭귄 인형",
-    "price": 39000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_8.jpg"
+    "image": "01_special/specialgoods_3.jpg",
+    "infoimg": "DETAIL/01_special/아리워치.jpg"
   },
   {
     "name": "2023 발로란트 마스터스 기습 토트 가방",
     "price": 65000,
     "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_9.jpg"
+    "image": "01_special/specialgoods_4.jpg",
+    "infoimg": "DETAIL/01_special/쇼핑백.jpg"
   },
   {
-    "name": "K/DA 아리 피규어 (특별판)",
-    "price": 35000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_10.jpg"
-  },
-  {
-    "name": "진 피규어",
-    "price": 35000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_11.jpg"
-  },
-  {
-    "name": "대장군 아지르 피규어 (시리즈2)",
-    "price": 32000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_12.jpg"
-  },
-  {
-    "name": "2021 월드 챔피언십 내셔 남작 긴팔 티셔츠",
-    "price": 59000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_13.jpg"
-  },
-  {
-    "name": "작은 악마 티모 티셔츠",
-    "price": 30000,
-    "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_14.jpg"
-  },
-  {
-    "name": "수영장 파티 하와이안 반팔 셔츠 (남녀공용))",
+    "name": "2022 월드 챔피언십 DRX 장로 드래곤 인형",
     "price": 45000,
     "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_15.jpg"
+    "image": "01_special/specialgoods_5.jpg",
+    "infoimg": "DETAIL/01_special/장로드래곤.jpg"
   },
   {
-    "name": "쓰레쉬 티셔츠 (남녀공용)",
-    "price": 30000,
+    "name": "TFT 배불뚝이 인형",
+    "price": 38000,
     "category": "SPECIAL GOODS",
-    "image": "01_special/specialgoods_16.jpg"
+    "image": "01_special/specialgoods_6.jpg",
+    "infoimg": "DETAIL/01_special/TFT.jpg"
+  },
+  {
+    "name": "비전 마법사 코그모 인형",
+    "price": 38000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_7.jpg",
+    "infoimg": "DETAIL/01_special/별수호자목걸이.jpg"
+  },
+  {
+    "name": "발로란트 댄펭귄 인형",
+    "price": 39000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_8.jpg",
+    "infoimg": "DETAIL/01_special/별수호자목걸이.jpg"
+  },
+  {
+    "name": "LoL x HIF 대식가 탐 켄치",
+    "price": 296000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_9.jpg",
+    "infoimg": "DETAIL/01_special/탐켄치.jpg"
+  },
+  {
+    "name": "LoL x HIF 그래피티 라이터 징크스",
+    "price": 240000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_10.jpg",
+    "infoimg": "DETAIL/01_special/징크스.jpg"
+  },
+  {
+    "name": "LoL x HIF 스칼 라이더 클레드",
+    "price": 296000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_11.jpg",
+    "infoimg": "DETAIL/01_special/클레드.jpg"
+  },
+  {
+    "name": "LoL x HIF 스트릿볼 에코",
+    "price": 240000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_12.jpg",
+    "infoimg": "DETAIL/01_special/에코.jpg"
+  },
+  {
+    "name": "우르프 잠옷",
+    "price": 89000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_13.jpg",
+    "infoimg": "DETAIL/01_special/우르프잠옷.jpg"
+  },
+  {
+    "name": "티버 잠옷",
+    "price": 89000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_14.jpg",
+    "infoimg": "DETAIL/01_special/티버잠옷.jpg"
+  },
+  {
+    "name": "대몰락: 리그 오브 레전드 소설",
+    "price": 18800,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_15.jpg",
+    "infoimg": "DETAIL/01_special/대몰락.jpg"
+  },
+  {
+    "name": "2023 발로란트 챔피언스 폭파봇 배지",
+    "price": 19000,
+    "category": "SPECIAL GOODS",
+    "image": "01_special/specialgoods_16.jpg",
+    "infoimg": "DETAIL/01_special/뱃지.jpg"
   },
 
   {
@@ -102,97 +117,113 @@
     "price": 1250000,
     "category": "NEW ITEM",
     "image": "02_newitem/newitem_1.jpg",
-    "infoimg": "DETAIL/03_statue/피오라.jpg"
+    "infoimg": "DETAIL/02_newitem/피오라.jpg"
   },
   {
     "name": "저항하는 자, 자야 1/7 스태츄 (HobbyMax)",
     "price": 240000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_2.jpg"
+    "image": "02_newitem/newitem_2.jpg",
+    "infoimg":"DETAIL/02_newitem/자야.jpg"
   },
   {
     "name": "매혹하는 자, 라칸 1/7 스태츄 (HobbyMax)",
     "price": 240000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_3.jpg"
+    "image": "02_newitem/newitem_3.jpg",
+    "infoimg":"DETAIL/02_newitem/라칸.jpg"
   },
   {
     "name": "정화의 사도 루시안 1/6 스태츄 (JIMEI)",
     "price": 550000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_4.jpg"
+    "image": "02_newitem/newitem_4.jpg",
+    "infoimg":"DETAIL/02_newitem/루시안.jpg"
   },
   {
     "name": "영혼의 꽃 릴리아 피규어 (특별판)",
     "price": 38000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_5.jpg"
+    "image": "02_newitem/newitem_5.jpg",
+    "infoimg":"DETAIL/02_newitem/릴리아.jpg"
   },
   {
-    "name": "리그 오브 레전드 호랑이해 컬렉터블",
-    "price": 72000,
+    "name": "프로젝트: 애쉬 1/8 액션 피규어 (APEX)",
+    "price": 170000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_6.jpg"
+    "image": "02_newitem/newitem_6.jpg",
+    "infoimg":"DETAIL/02_newitem/애쉬.jpg"
   },
   {
-    "name": "애니버서리 피규어 XL (한정판)",
-    "price": 45000,
+    "name": "나미 UNLOCKED 스태츄",
+    "price": 99000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_7.jpg"
+    "image": "02_newitem/newitem_7.jpg",
+    "infoimg":"DETAIL/02_newitem/나미.jpg"
   },
   {
-    "name": "DWG 월드 챔피언십 포로 피규어 (한정판)",
-    "price": 42000,
+    "name": "요네 Unlocked 스태츄",
+    "price": 99000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_8.jpg"
+    "image": "02_newitem/newitem_8.jpg",
+    "infoimg":"DETAIL/02_newitem/요네.jpg"
   },
   {
     "name": "시간/교차: 리그 오브 레전드 이야기 컬렉터 에디션",
     "price": 220000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_9.jpg"
+    "image": "02_newitem/newitem_9.jpg",
+    "infoimg":"DETAIL/02_newitem/시간교차.jpg"
   },
   {
     "name": "2023 MSI XL 마우스패드",
     "price": 32000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_10.jpg"
+    "image": "02_newitem/newitem_10.jpg",
+    "infoimg":"DETAIL/02_newitem/MSI 패드.jpg"
   },
   {
     "name": "전투 토끼 미스 포츈 XL 마우스패드",
     "price": 32000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_11.jpg"
+    "image": "02_newitem/newitem_11.jpg",
+    "infoimg":"DETAIL/02_newitem/미스포춘패드.jpg"
   },
   {
     "name": "마력 척결관: 리그 오브 레전드 이야기 컬렉터 에디션",
     "price": 220000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_12.jpg"
+    "image": "02_newitem/newitem_12.jpg",
+    "infoimg":"DETAIL/02_newitem/마력척결관.jpg"
   },
   {
-    "name": "아케인 점화단 반지",
-    "price": 79000,
+    "name": "사랑의 자야와 라칸 열쇠고리 세트",
+    "price": 24000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_13.jpg"
+    "image": "02_newitem/newitem_13.jpg",
+    "infoimg":"DETAIL/02_newitem/라칸자야.jpg"
   },
   {
-    "name": "아케인 멜의 반지",
-    "price": 49000,
+    "name": "별 수호자 쿠션",
+    "price": 19000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_14.jpg"
+    "image": "02_newitem/newitem_14.jpg",
+    "infoimg":"DETAIL/02_newitem/쿠션.jpg"
   },
   {
-    "name": "악의 여단 모르가나 귀걸이",
-    "price": 83000,
+    "name": "아케인 마법공학 건틀릿",
+    "price": 89000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_15.jpg"
+    "image": "02_newitem/newitem_15.jpg",
+    "infoimg":"DETAIL/02_newitem/바이.jpg"
   },
   {
-    "name": "애쉬와 트린다미어 커플 팔찌 세트",
-    "price": 139000,
+    "name": "별 수호자 룰루 키캡",
+    "price": 89000,
     "category": "NEW ITEM",
-    "image": "02_newitem/newitem_16.jpg"
+    "image": "02_newitem/newitem_16.jpg",
+    "infoimg":""
+    
   },
 
   {
@@ -429,108 +460,108 @@
     "infoimg": "DETAIL/05_T-shirt/shirt_1.jpg"
   },
   {
-    "name": "2021 월드 챔피언십 여성 긴 팔 크롭 티셔츠",
-    "price": 59000,
+    "name": "대장군 카타리나 집업 후드티(레드)",
+    "price": 9000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_2.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_2.jpg"
   },
   {
     "name": "덩크왕 다리우스 농구 유니폼(상의)",
     "price": 78000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_3.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_3.jpg"
   },
   {
-    "name": "다리우스 농구 유니폼(하의)(레드,블랙)",
-    "price": 60000,
+    "name": "2022 월드 챔피언십 여성 미드 카라 크롭티",
+    "price": 157000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_4.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_4.jpg"
   },
   {
-    "name": "블랙 & 화이트 긴팔티 컬렉션",
-    "price": 37000,
+    "name": "2023 발로란트 챔피언스 X GOALSTUDIO 반팔티 (화이트)",
+    "price": 59000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_5.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_5.jpg"
   },
   {
-    "name": "K/DA 여성용 탱크탑",
-    "price": 30000,
+    "name": "2023 발로란트 챔피언스 한 번 더 반팔티",
+    "price": 45000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_6.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_6.jpg"
   },
   {
-    "name": "2019 월드 챔피언십 저지",
-    "price": 67000,
+    "name": "2023 발로란트 챔피언스 X GOALSTUDIO  반팔티 (블랙)",
+    "price": 59000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_7.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_7.jpg"
   },
   {
-    "name": "자야와 라칸 블랙 반팔티",
-    "price": 39000,
+    "name": "별수호자 단짝 친구 크롭티",
+    "price": 109000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_8.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_8.jpg"
   },
   {
-    "name": "2020 월드 챔피언십 반팔티 (남여공용)",
-    "price": 39000,
+    "name": "2022 월드 챔피언십 패딩 조끼",
+    "price": 157000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_9.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_9.jpg"
   },
   {
-    "name": "미니언 반팔티",
-    "price": 37000,
+    "name": "2022 월드 챔피언십 엑스트라 조거 팬츠",
+    "price": 85000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_10.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_10.jpg"
   },
   {
     "name": "2023 MSI DEFY 풀오버 후드티",
     "price": 109000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_11.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_11.jpg"
   },
   {
-    "name": "영혼의 꽃 야스오 반팔티",
-    "price": 37000,
+    "name": "별의 숙적 리버스레드 피들스틱 후드티",
+    "price": 109000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_12.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_12.jpg"
   },
   {
-    "name": "영혼의 꽃 리븐 반팔티",
-    "price": 37000,
+    "name": "우주 그루브 Unworthy 풀오버 후드티",
+    "price": 109000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_13.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_13.jpg"
   },
   {
-    "name": "아케인 반팔티 (두 자매,필트오버,자운)",
-    "price": 39000,
+    "name": "아케인 두 자매 바이와 파우더 후드티",
+    "price": 129000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_14.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_14.jpg"
   },
   {
-    "name": "아니메 다리우스 반팔티",
-    "price": 37000,
+    "name": "발로란트 농구 반바지",
+    "price": 55000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_15.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_15.jpg"
   },
   {
-    "name": "2018 월드 챔피언십 애쉬 티셔츠",
-    "price": 37000,
+    "name": "2022 월드 챔피언십 5패널 서핑모자",
+    "price": 39000,
     "category": "T-SHIRT",
     "image": "05_T-shirt/shirt_16.jpg",
-    "infoimg": ""
+    "infoimg": "DETAIL/05_T-shirt/shirt_16.jpg"
   }
 ]
