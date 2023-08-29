@@ -1,28 +1,14 @@
 @charset "UTF-8";
 /* detail css */
-* {
-  padding: 0;
-  margin: 0;
-}
-ul,
-li {
-  list-style: none;
-}
-
-.row {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
 /* 상품상세페이지 상단 */
 .detail_div {
   display: flex;
   justify-content: space-between;
   border-top: 4px solid #000;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 .detail .title_store {
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 .detail .title_store span {
   padding-right: 3px;
@@ -42,6 +28,7 @@ li {
   text-align: center;
   margin: 120px 0;
 }
+/* 상품상세 이미지 */
 .product_img img {
   width: 100%;
 }
@@ -51,14 +38,17 @@ li {
   font-size: 30px;
   margin-bottom: 23px;
 }
+/* 하트 아이콘 */
 .icon .fa-heart:hover {
   color: red;
   transition: 0.5s;
 }
+/* 공유 아이콘 */
 .icon .fa-share-nodes:hover {
   color: red;
   transition: 0.5s;
 }
+/* 쿠폰 관련 태그 */
 .title_coupon {
   font-size: 13px;
   display: flex;
@@ -71,6 +61,7 @@ li {
   border-radius: 10px;
   align-items: center;
 }
+/* 쿠폰받기 버튼 */
 .title_coupon .coupon1 {
   border: 1px solid #000;
   box-sizing: border-box;
@@ -81,11 +72,13 @@ li {
   text-align: center;
   cursor: pointer;
 }
+/*  쿠폰받기 버튼 후버 */
 .title_coupon .coupon1:hover {
   background-color: blueviolet;
   color: #fff;
   transition: 0.5s;
 }
+/*  쿠폰 내용 색 강조 */
 .title_coupon .accent_red {
   color: red;
 }
@@ -142,7 +135,7 @@ li {
 .title_price .price span::after {
   content: "원";
 }
-/* 목록 */
+/* 혜택 및 결제목록 */
 .title_name {
   display: block;
   border-top: 1px solid #f0f0f0;
@@ -152,20 +145,23 @@ li {
   padding-left: 10px;
   margin-bottom: 10px;
 }
+/* 혜택 및 결제목록 글자 강조 */
 .title_name .accent {
   color: blueviolet;
 }
 .title_name:last-child {
   border-bottom: 1px solid #f0f0f0;
 }
-
+/* 배너 */
 .banner {
   position: relative;
   text-align: center;
 }
+/* 배너 이미지 크기 */
 .banner img {
   width: 400px;
 }
+/* 상세설명,구매후기,상품문의 박스 */
 .tab ul {
   display: flex;
   color: #fff;
@@ -180,33 +176,31 @@ li {
   border: 1px solid #000;
   font-family: "Noto Sans KR", sans-serif;
 }
+/* 상세설명,구매후기,상품문의 */
 .tab ul li {
   padding: 0 50px 5px 50px;
   letter-spacing: 3px;
   height: inherit;
   line-height: 60px;
 }
+/* 카테고리 a태그 크기 */
 .tab ul li a {
   display: inline-block;
   height: inherit;
 }
+/* 카테고리 a 후버하면 밑줄 */
 .tab ul li a:hover {
   border-bottom: 5px solid #e63740;
 }
+/* 카테고리 각각 */
 .tab span {
   padding: 0px 30px;
 }
-
+/* 상품 설명 이미지 */
 .detail_photo img {
   width: 980px;
 }
-.total {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
-  padding: 10px 0;
-}
+/* 수량, 버튼, 최종금액 박스 */
 .result {
   background-color: #f9f9f9;
   padding: 0px 10px;
@@ -214,14 +208,25 @@ li {
   box-shadow: 5px 5px #f0f0f0;
   font-family: "Noto Sans KR", sans-serif;
 }
+/* 버튼 및 금액 박스 */
+.total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+}
+/* 버튼 박스 */
 .item_result {
   display: flex;
 }
+/* 수량 input 스타일 */
 .total .item_result input {
   width: 45px;
   height: 32px;
   border: 1px solid #ddd;
 }
+/* 수량 플러스 마이너스 스타일 */
 .item_result button {
   background-color: #fff;
   border: 1px solid #ddd;
@@ -229,12 +234,15 @@ li {
   width: 35px;
   height: 34px;
 }
+/* 마이너스 버튼 반지름*/
 .item_result .item_minus {
   border-radius: 10px 0px 0px 10px;
 }
+/* 플러스 버튼 반지름*/
 .item_result .item_plus {
   border-radius: 0px 10px 10px 0px;
 }
+/* 수량 스타일 */
 .item_number {
   height: 50px;
   line-height: 50px;
@@ -242,26 +250,41 @@ li {
   font-weight: 500;
   font-size: 18px;
 }
+/* 상품 금액 */
 .price_result {
   font-size: 25px;
   font-weight: bold;
   line-height: 30px;
-  content: "";
 }
-
+/* 수량에맞는 최종금액 스타일 */
 .total_price {
+  display: flex;
+  justify-content: space-between;
   height: 70px;
   line-height: 70px;
   text-align: right;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
 }
-
-/* 버튼 */
+.price_result span::after {
+  content: "원";
+}
+.total_price .reprice::after {
+  content: "원";
+}
+/* 수량 스타일 */
+.item_input {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 15px;
+}
+/* 버튼*/
 .btn {
   display: flex;
   justify-content: space-between;
 }
+/* 버튼 스타일 선물하기,장바구니,구매하기*/
 .btn button {
   border-radius: 10px;
   border: 1px solid #e63740;
@@ -270,19 +293,30 @@ li {
   font-weight: bold;
   font-family: "Noto Sans KR", sans-serif;
   line-height: 25px;
+  cursor: pointer;
 }
+/* 선물하기 버튼 */
 .btn .gift {
   width: 120px;
   color: #e63740;
   background-color: rgba(0, 0, 0, 0);
 }
+/* 장바구니 버튼 */
 .btn .cart {
   color: #e63740;
   width: 170px;
   background-color: rgba(0, 0, 0, 0);
 }
+/* 구매하기 버튼 */
 .btn .buy {
   width: 170px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #e63740;
+}
+/* 버튼 후버 */
+.btn .gift:hover,
+.btn .cart:hover,
+.btn .buy:hover {
   background-color: #e63740;
   color: #fff;
 }

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.cart_header h2 {
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  height: 50px;
+  line-height: 30px;
+}
+.cart_header {
+  border-top: 4px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.step {
+  font-size: 20px;
+}
+.step ul {
+  display: flex;
+}
+/* .onestep {
+  color: red;
+} */
+.step li span {
+  margin-right: 10px;
+}
+.step li {
+  display: flex;
+  font-size: 20px;
+  margin-right: 10px;
+  align-items: center;
+}
+.step li i {
+  font-size: 23px;
+}
+.step li::before {
+  align-items: center;
+  font-size: 13px;
+  display: inline-block;
+  font-weight: bold;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #000;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.twostep,
+.threestep {
+  opacity: 0.3;
+}
+.onestep::before {
+  content: "1";
+}
+.twostep::before {
+  content: "2";
+}
+.threestep::before {
+  content: "3";
+}
+.cart_section table {
+  width: 100%;
+  height: 300px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.cart_section table td {
+  text-align: center;
+}
+.cart_section col:nth-child(1) {
+  width: 300px;
+}
+.cart_section col:nth-child(2) {
+  width: auto;
+}
+.cart_section col:nth-child(3) {
+  width: 100px;
+}
+.cart_section col:nth-child(4) {
+  width: 100px;
+}
+.cart_section col:nth-child(5) {
+  width: 100px;
+}
+
+.cart_section {
+  border: 1px solid #000;
+}
+.cart_section table th {
+  padding: 15px 0;
+}
