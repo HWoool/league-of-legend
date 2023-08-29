@@ -66,8 +66,7 @@
         </div>
       </div>
       <!-- 스페셜상품 -->
-      <div class="wrap_good">
-      </div>
+      <div class="wrap_good"></div>
     </div>
 
     <div class="store_footer"></div>
@@ -76,22 +75,22 @@
       // 메인이미지 버튼
       let count = 0;
       $(".mbtn button") // 버튼 클릭
-        .eq(0) // 첫번째 버튼 클릭
+        .eq(0) // << 버튼 클릭
         .on("click", function () {
           if (count > 0) {
             $(".wrap_img ul").animate({
-              left: "+=980px", // 사진크기만큼 오른쪽으로 이동
+              left: "+=980px", // 사진크기만큼 왼쪽으로 이동
             });
             count--;
           }
         });
 
       $(".mbtn button") // 버튼 클릭
-        .eq(1) // 두번째 버튼 클릭
+        .eq(1) // >> 버튼 클릭
         .on("click", function () {
           if (count < 3) {
             $(".wrap_img ul").animate({
-              left: "-=980px", // 사진크기만큼 왼쪽으로 이동
+              left: "-=980px", // 사진크기만큼 오른쪽으로 이동
             });
             count++;
           }
