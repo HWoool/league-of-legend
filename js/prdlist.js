@@ -5,12 +5,10 @@ function usedata(cate) {
   let dir = `<h2 class="title1_h2">${cate}</h2>`;
   dir += `<div class="wrap_good_items">
              <ul class="wrap_item">`;
-  // <div class="wrap_good_items"></div><ul class="wrap_item">
   newdata.forEach((value) => {
-    dir += `
-            <li>
+    dir += `<li>
             <div class="box_item">
-            <span class="option new" ::before>
+            <span class="option new"::before>
             <span class="option_text">NEW</span>
             </span>
             </div>
@@ -30,8 +28,7 @@ function usedata(cate) {
                 .toString()
                 .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</b>
             </div>
-            </li>
-            `;
+            </li>`;
   });
   dir += `</ul>
           </div>`;

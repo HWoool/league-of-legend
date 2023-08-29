@@ -2,6 +2,7 @@ let temp = location.href.split("?");
 let detail = decodeURI(temp[1]).split("&");
 let price = detail[1].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
+// 상세페이지 내용
 let info = `<div class="detail_div row">
               <div class="product_img">
                 <img src="./images/JSON/${detail[2]}" alt="메인상품이미지" />
@@ -78,7 +79,7 @@ let info = `<div class="detail_div row">
                   </div>
                 </div>
                   <div class="banner">
-                    <img src="./images/2207_pc_vip_bn_img_01.png" alt="배너" />
+                    <img src="./images/DETAIL/배너.jpg" alt="배너" />
                   </div>
                   <div class="result">
                     <div class="item_number">
@@ -87,15 +88,16 @@ let info = `<div class="detail_div row">
                     <div class="total">
                       <div class="item_result">
                         <div class="minus"><button class="item_minus">-</button></div>
-                        <div class="input"><input type="text" /></div>
+                        <div class="input"><input type="text" value="1" autocomplete="off" class="item_input" /></div>
                         <div class="plus"><button class="item_plus">+</button></div>
                       </div>
                       <div class="price_result">
-                        <span>99000</span>
+                        <span>${price}</span>
                       </div>
                     </div>
                     <div class="total_price">
-                      <span>99000</span>
+                      <div>총 금액</div>
+                      <div class="reprice">${price}</div>
                     </div>
                   </div>
                   <div class="btn">
@@ -124,5 +126,52 @@ let info = `<div class="detail_div row">
                 <img src="./images/${detail[3]}" alt="" />
               </div>
               </div>`;
+// .detail .info 박스 안에 내용 삭제
 $(".detail .info").remove();
+// .detail info 박스 안에 내용 추가
 $(".detail").append(info);
+
+// 전역변수 선언
+let quantity = 1;
+let total = 0;
+
+// 수량 - 버튼 (감소)
+$("body").on("click", ".minus", function () {
+  // 클릭으로 숫자감소를 input에 나타냄
+  quantity = $(".item_input").val();
+  if (quantity > 1) {
+    $(".item_input").val(--quantity);
+  } else {
+    quantity = 1;
+    $(".item_input").val(quantity);
+  }
+  getTotal();
+});
+
+// 수량 input 버튼
+$("body").on("keyup", ".item_input", function () {
+  quantity = $(this).val();
+  if (quantity) {
+    $(this).val(quantity);
+    getTotal();
+  }
+});
+
+// 수량 + 버튼 (증가)
+$("body").on("click", ".plus", function () {
+  // 클릭으로 숫자증가를 input에 나타냄
+  quantity = $(".item_input").val();
+  if (quantity) {
+    quantity = parseInt(quantity);
+    $(".item_input").val(++quantity);
+  } else {
+    quantity = 1;
+    $(".item_input").val(quantity);
+  }
+  getTotal();
+});
+// 총 금액
+function getTotal() {
+  total = quantity * detail[1];
+  $(".reprice").text(total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+}
