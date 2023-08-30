@@ -7,6 +7,7 @@
   border-top: 4px solid #000;
   padding-top: 30px;
 }
+
 .detail .title_store {
   padding: 10px 0;
 }
@@ -19,19 +20,16 @@
 .detail .title_store .fa-house {
   color: #bbb;
 }
-.product_ifm {
-  width: 1000px;
-}
-.product_img {
-  width: 1000px;
-  height: 600px;
+.product_img img {
+  width: 100%;
   text-align: center;
   margin: 120px 0;
 }
-/* 상품상세 이미지 */
-.product_img img {
-  width: 100%;
+
+.form {
+  width: 300px;
 }
+/* 상품상세 이미지 */
 .title_price {
   display: flex;
   justify-content: space-between;
@@ -279,6 +277,10 @@
   font-family: "Noto Sans KR", sans-serif;
   font-size: 15px;
 }
+.item_result button:hover {
+  background-color: #000;
+  color: #fff;
+}
 /* 버튼*/
 .btn {
   display: flex;
@@ -294,12 +296,15 @@
   font-family: "Noto Sans KR", sans-serif;
   line-height: 25px;
   cursor: pointer;
+  width: 32%;
+  margin-right: 5px;
 }
 /* 선물하기 버튼 */
 .btn .gift {
   width: 120px;
   color: #e63740;
   background-color: rgba(0, 0, 0, 0);
+  margin-left: 5px;
 }
 /* 장바구니 버튼 */
 .btn .cart {

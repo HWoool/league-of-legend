@@ -17,16 +17,68 @@ body {
   padding-top: 50px;
   padding-bottom: 30px;
 }
+table {
+  border-collapse: collapse;
+}
+table img {
+  width: 100%;
+}
+table .item__input {
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #ddd;
+}
+table thead tr {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+table tbody tr {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+table tbody tr td {
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+}
+table tbody tr td:first-child {
+  border-left: none;
+}
 
+table .price_pm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+table .price_pm button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+table .price_pm .item__plus {
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
+  font-size: 25px;
+}
+table .price_pm .item__minus {
+  width: 30px;
+  height: 30px;
+  line-height: 20px;
+  font-size: 25px;
+}
+table .price_pm button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+table .pp::after {
+  content: "원";
+}
 .step {
   font-size: 20px;
 }
 .step ul {
   display: flex;
 }
-/* .onestep {
-  color: red;
-} */
 .step li span {
   margin-right: 10px;
 }
@@ -78,13 +130,13 @@ body {
   text-align: center;
 }
 .cart_section col:nth-child(1) {
-  width: 300px;
+  width: 250px;
 }
 .cart_section col:nth-child(2) {
   width: auto;
 }
 .cart_section col:nth-child(3) {
-  width: 100px;
+  width: 120px;
 }
 .cart_section col:nth-child(4) {
   width: 100px;
@@ -93,9 +145,77 @@ body {
   width: 100px;
 }
 
-.cart_section {
-  border: 1px solid #000;
-}
 .cart_section table th {
   padding: 15px 0;
+}
+
+.remove {
+  width: 25px;
+  height: 25px;
+  line-height: 23px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+}
+.remove:hover {
+  color: #000;
+  background-color: #fff;
+}
+.pp,
+.np {
+  font-weight: bold;
+}
+.np {
+  font-size: 18px;
+}
+.pp {
+  font-size: 15px;
+}
+tfoot {
+  height: 100px;
+  font-size: 26px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  font-weight: bold;
+}
+tfoot i {
+  margin: 0 10px;
+}
+tfoot span::after {
+  content: "원";
+}
+.buy_btn {
+  text-align: center;
+  border: none;
+  margin-top: 30px;
+}
+.buy_btn button {
+  width: 250px;
+  height: 80px;
+  line-height: 70px;
+  font-size: 27px;
+  background-color: #fff;
+  color: #e63740;
+  border: 1px solid #e63740;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.buy_btn button:hover {
+  background-color: #e63740;
+  color: #fff;
+}
+.pTotal {
+  font-weight: bold;
+}
+.pTotal::after {
+  content: "원";
+}
+
+.cart_Info p {
+  text-align: center;
+  height: 300px;
+  line-height: 300px;
+  font-size: 25px;
+  font-weight: bold;
 }
