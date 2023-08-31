@@ -97,13 +97,13 @@
         });
     </script>
 
-    <script src="./js/common.js"></script>
+    <script src="./js/cart_common.js"></script>
     <!-- json 데이터 비동기  -->
     <script>
       let data = "";
       $.ajax({
         type: "GET",
-        url: "./js/data.json",
+        url: "./js/cart_data.json",
         dataType: "json",
         success: function (rdata) {
           data = rdata;
@@ -115,6 +115,6 @@
       });
     </script>
 
-    <script src="./js/prdlist.js"></script>
+    <script src="./js/cart_prdlist.js"></script>
   </body>
 </html>
