@@ -37,7 +37,7 @@ let info = `<div class="detail_div row">
                   <div class="title_namebox">
                     <div class="title_day">
                       <div class="title_daytext">
-                        <span><i class="fa-solid fa-truck-fast"></i> 내일 8/22(화) 출발 예정
+                        <span><i class="fa-solid fa-truck-fast"></i> 내일 9/1(금) 출발 예정
                         </span>
                       </div>
                       <div class="title_daybox">
@@ -48,7 +48,7 @@ let info = `<div class="detail_div row">
                                 <span class="dayday1">도착확률정보</span>
                               </div>
                               <div class="ddday">
-                                <span class="dayday2">8/22(화) 도착</span>
+                                <span class="dayday2">9/4(월) 도착</span>
                                 <progress class="gauge" value="78" max="100"></progress>
                                 <span class="dayday2">78%</span>
                               </div>
