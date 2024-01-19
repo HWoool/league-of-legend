@@ -19,7 +19,6 @@ function usedata(cate) {
       value.image
     }&${value.infoimg}">
                 <i class="fas fa-search"></i></a>
-                <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
               </div>
             </div>
             <div class="item_name">
